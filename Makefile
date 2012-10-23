@@ -12,10 +12,10 @@ endif
 
 # OBJECTS
 COMMON_OBJECTS = clientserver.cc stats.cc
-CLIENT_OBJECTS = socketclient.cc
-CLIENT_OUTPUT = socketclient
-SERVER_OBJECTS = socketserver.cc
-SERVER_OUTPUT = socketserver
+CLIENT_OBJECTS = dummyclient.cc
+CLIENT_OUTPUT = dummyclient
+SERVER_OBJECTS = dummyserver.cc
+SERVER_OUTPUT = dummyserver
 
 # DEPENDENCIES
 
