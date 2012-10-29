@@ -1,0 +1,17 @@
+h1. About
+
+dummyclientserver is a basic dummy TCP socket client and server application written in C that closely follows "Beej's Guide to Network Programming":http://beej.us/guide/bgnet. This application could be useful for learning socket programming, testing network-related applications, or for benchmarking purposes. dummyclientserver uses Berkeley (POSIX) sockets.
+
+To build:
+$ make
+
+To run:
+$ ./dummyserver
+And in a separate terminal:
+$ ./dummyclient
+
+The server by default listens on port 1234, and the client by default connects to localhost at 1234. You can optionally specify server IP and port as command line arguments. Both server and client send dummy data back and forth between them indefinitely while in operation (you can Ctrl-C to terminate, as always), and confirm at each end that the data is not corrupted (if corruption is detected the program exits). A simple stats module shows current network usage rates.
+
+h1. Acknowledgements
+
+This application was inspired by a similar application originally written by Daniel Barreto at Wyse Technology.
