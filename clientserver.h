@@ -2,6 +2,7 @@
 #define __CLIENTSERVER_H
 
 
+// a convenience struct that contains the socket and remote address for a connection
 typedef struct {
 	int sockfd;
 	struct sockaddr_in theiraddr;

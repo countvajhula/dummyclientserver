@@ -1,1 +1,1 @@
-Dummyclientserver is released as open source under the BSD license.
+dummyclientserver is released as open source under the BSD license.
